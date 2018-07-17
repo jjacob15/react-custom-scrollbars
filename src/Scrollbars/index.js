@@ -1,6 +1,8 @@
 import raf, { cancel as caf } from 'raf';
 import css from 'dom-css';
-import { Component, createElement, cloneElement } from 'react';
+const { Component, createElement, cloneElement } = React;
+//const {Component,createElement, cloneElement } = 'react';
+
 import PropTypes from 'prop-types';
 
 import isString from '../utils/isString';
